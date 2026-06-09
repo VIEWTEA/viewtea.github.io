@@ -1,21 +1,53 @@
-﻿<local:MyCard Title="   此  间  风  月  皆  予  你" Margin="-28,-26,-28,20" Height="40">
-    <TextBlock Margin="0,13,80,0" Foreground="{DynamicResource ColorBrush5}"
-        HorizontalAlignment="Right"
-        Text="EryuanK" FontWeight="ExtraBold" FontStyle="Italic" />
+<local:MyCard  Margin="-28,-26,-28,20" Height="40" >
+    <TextBlock Text="此  间  风  月  皆  予  你" 
+               Foreground="{DynamicResource ColorBrush2}" 
+               FontSize="16" 
+               FontWeight="Bold"
+               VerticalAlignment="Center"  HorizontalAlignment="Center"
+               Margin="10,0,0,0"/>
     <local:MyIconTextButton Margin="0,5,5,6" Height="35" HorizontalAlignment="Right"
         Text="刷新" EventType="刷新主页" Grid.Column="1"
         LogoScale="0.8" ColorType="Highlight"
         Logo="M256.455,8C322.724,8.119,382.892,34.233,427.314,76.685L463.029,40.97C478.149,25.851,504,36.559,504,57.941L504,192C504,205.255,493.255,216,480,216L345.941,216C324.559,216,313.851,190.149,328.97,175.029L370.72,133.279C339.856,104.38 299.919,88.372 257.49,88.006 165.092,87.208 87.207,161.983 88.0059999999999,257.448 88.764,348.009 162.184,424 256,424 297.127,424 335.997,409.322 366.629,382.444 371.372,378.283 378.535,378.536 382.997,382.997L422.659,422.659C427.531,427.531 427.29,435.474 422.177,440.092 378.202,479.813 319.926,504 256,504 119.034,504 8.001,392.967 8,256.002 7.999,119.193 119.646,7.755 256.455,8z" />
 </local:MyCard>
 <local:MyImage Height="100" HorizontalAlignment="Center" Source="https://bee-reg-ab.imagency.cn/e/68ff5b7bbebaa935a2457671fe41e481.png" />
-    <StackPanel  >
-        <TextBlock TextWrapping="Wrap" FontSize="20" Margin="20,0,20,4" Foreground="#097259"
-                    Text="欢迎来到观茶境 这里是一片慢下来的天地 愿你在此放下匆忙 在方块间寻得片刻安宁"/>
-    </StackPanel>
-
-<local:MyCard Title="公 告   2026-6-9" Margin="0,0,0,15" CanSwap="True" IsSwapped="True">
-    
-    <StackPanel Margin="25,40,23,15">
-        <!-- <local:MyImage Height="100" HorizontalAlignment="Center" Source="https://bee-reg-ab.imagency.cn/e/68ff5b7bbebaa935a2457671fe41e481.png" /> -->
+<StackPanel>
+    <TextBlock TextWrapping="Wrap" 
+           FontSize="15" 
+           Margin="20,10,20,0" 
+           Foreground="{DynamicResource ColorBrush2}" 
+           Background="#ffffff"  
+           HorizontalAlignment="Center" 
+           TextAlignment="Center"
+           Padding="8,4"
+           FontWeight="Bold"
+           Text="欢迎来到观茶境 这里是一片慢下来的天地 愿你在此放下匆忙 在方块间寻得片刻安宁"/>
+</StackPanel>
+<StackPanel Orientation="Horizontal" Margin="0,10,0,0" HorizontalAlignment="Center">
+    <local:MyButton Margin="0,4,10,4" Height="35" Padding="13,0,13,0" ColorType="Highlight"
+                    Background="#ffffff"
+                    Text="快速进入服务器" EventType="启动游戏" EventData="VIEWTEA|viewtea.top" ToolTip="VIEWTEA|viewtea.top" />
+    <local:MyButton Margin="0,4,10,4" Height="35" Padding="13,0,13,0" ColorType="Highlight"
+                    Background="#ffffff"
+                    Text="点击查看游玩手册" EventType="打开网页" EventData="https://docs.qq.com/aio/DRmJvSGNPU2tpYndp" />
+    <local:MyButton Margin="0,4,10,4" Height="35" Padding="13,0,13,0" ColorType="Highlight"
+                    Background="#ffffff"
+                    Text="官方B站账号" EventType="打开网页" EventData="https://space.bilibili.com/3707005508258421" />
+    <local:MyButton Margin="0,4,0,4" Height="35" Padding="13,0,13,0" ColorType="Highlight"
+                    Background="#ffffff"
+                    Text="联系我们" EventType="打开网页" EventData="" />
+</StackPanel>
+<local:MyCard Title="公 告   2026-6-9" Margin="0,15,0,15" CanSwap="True" IsSwapped="True" >
+    <StackPanel Margin="25,20,23,15">
+        
+        <TextBlock FontSize="15" 
+                   Margin="0,10,0,10"  
+                   Text="1.喵喵喵"/>
+        <TextBlock FontSize="15" 
+                   Margin="0,10,0,10" 
+                   Text="2."/>
+        <TextBlock FontSize="15" 
+                   Margin="0,10,0,10"  
+                   Text="3."/>
     </StackPanel>
 </local:MyCard>
