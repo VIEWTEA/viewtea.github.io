@@ -37,7 +37,7 @@
                     Background="#ffffff"
                     Text="联系我们" EventType="打开网页" EventData="" />
 </StackPanel>
-<local:MyCard Title="公 告   2026-6-9" Margin="0,15,0,15" CanSwap="True" IsSwapped="True" >
+<local:MyCard Title="公 告   2026-6-11" Margin="0,15,0,15" CanSwap="True" IsSwapped="True" >
     <StackPanel Margin="25,20,23,15">
         
         <TextBlock FontSize="15" 
